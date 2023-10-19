@@ -1,0 +1,15 @@
+female(indu).
+female(lie).
+
+male(ramu).
+male(varun).
+
+parent(lie,ramu).
+parent(indu,varun).
+sibling(indu,ramu).
+sibling(ramu,indu).
+
+mother(X,Y):-parent(X,Y),female(X).
+father(X,Y):-parent(X,Y),male(Y).
+sister(X,Y):-sibling(X,Y),female(X).
+brother(X,Y):-sibling(X,Y),male(y).

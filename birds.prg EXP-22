@@ -1,0 +1,9 @@
+bird(swan,canfly).
+bird(sparrow,canfly).
+bird(eagle,canfly).
+bird(duck,cannot).
+bird(crow,canfly).
+bird(ostrich,canot).
+bird(puffin,cannot).
+bird(swan,canfly).
+bird(albatross,cannot).

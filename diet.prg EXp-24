@@ -1,0 +1,3 @@
+diet_recommendation(hypertension, [low_salt, high_potassium, low_fat]).
+diet_recommendation(diabetes, [low_carbohydrate, balanced_protein, high_fiber]).
+suggest_diet(Disease, Diet) :- diet_recommendation(Disease, Diet).
